@@ -20,4 +20,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^polling/', include('polling.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    
 ]
